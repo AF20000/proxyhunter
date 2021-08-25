@@ -17,7 +17,7 @@ bold = Style.BRIGHT
 reset = Style.RESET_ALL
 
 # basic globals
-start = time.clock()
+start = time.perf_counter()
 proxy_list = []
 
 # set environment
